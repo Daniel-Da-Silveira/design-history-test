@@ -6,15 +6,20 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(require('@x-govuk/govuk-eleventy-plugin'), {
+
+
     stylesheets: [
       '/styles/application.css'
+
     ],
     headingPermalinks: true,
+
+
 
     header: {
 
       organisationLogo: false,
-      productName: 'Forms designer',
+      productName: 'Formdds designer',
 
     logotype: {
         text: 'Defra',
